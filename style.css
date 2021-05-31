@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Lexend+Deca&family=Open+Sans&family=Poppins&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    background: hsl(204, 43%, 93%);
+}
+.container {
+    width: 50%;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 15px;
+    overflow: hidden;
+   
+}
+
+h1 {
+    color: #fff;
+}
+
+h2 {
+    color: hsl(179, 62%, 43%);
+}
+
+.row h3 {
+    color: hsl(71, 73%, 54%);
+    margin-top: 18px;
+    margin-bottom: 15px;
+}
+
+.row p {
+    color: hsl(203, 14%, 63%);
+    line-height: 1.7;
+}
+
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    background: hsl(71, 73%, 54%);
+    color: #fff;
+    font-weight: bolder;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+.row {
+    background: #fff;
+    padding: 30px;
+}
+.price {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+}
+
+span {
+    padding-left: 1px;
+    opacity: 0.5;
+}
+
+.col-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* flex-direction: row; */
+}
+
+.col {
+    padding: 40px;
+}
+
+#col-1 {
+    background: hsl(179, 62%, 43%);
+    color: #fff;
+}
+
+#col-1 p {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+#col-2 {
+    background: #6dd8d6;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    padding: 2px;
+}
+
+
+.attribution { 
+    font-size: 12px;
+    text-align: center;
+    padding-top: 20px;
+ }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media(max-width: 761px) {
+
+    .container {
+        border-radius: 0;
+    }
+    .col-container {
+        grid-template-columns: 1fr;
+    }
+
+    body {
+        font-size: 13px;
+    }
+
+    .container {
+        width: 60%;
+        margin-top: 20px;
+    }
+
+   .col {
+       padding-top: 25px;
+       padding-left: 25px;
+       padding-right: 25px;
+       padding-bottom: 25px;
+   }
+}
