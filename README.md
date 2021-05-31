@@ -44,7 +44,7 @@ I plan to focus on developing my strengths in the use of CSS grid and flex.
 ### Useful resources
 
 - [Resource 1](https://www.w3schools.com/css/css_grid.asp) - W3schools is a great resource!
-- [Resource 2](https://www.w3schools.com/css/css3_flexbox.asp) -
+- [Resource 2](https://www.w3schools.com/css/css3_flexbox.asp) - W3schools
 
 ## Author
 
