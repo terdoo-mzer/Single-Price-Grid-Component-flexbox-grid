@@ -24,7 +24,7 @@
 
 ### Links
 
-- Solution URL: [Add solution URL here]()
+- Solution URL: [Add solution URL here](https://github.com/terdoo-mzer/Single-Price-Grid-Component)
 - Live Site URL: [Add live site URL here]()
 
 ## My process
